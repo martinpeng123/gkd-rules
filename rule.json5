@@ -1,0 +1,43 @@
+{
+  name: '[ChangeMe]规则名称-2025-04-02 10:15:21',
+  key: 1,
+  desc: '[ChangeMe]本规则由GKD网页端审查工具生成',
+  rules: [
+    {
+      matches: [
+        '@ImageView < FrameLayout <6 FrameLayout < RelativeLayout < FrameLayout < FrameLayout < LinearLayout < [id="android:id/content"]',
+      ],
+      fastQuery: true,
+      activityIds: [
+        'com.qq.e.ads.PortraitADActivity',
+      ],
+    },
+    {
+      matches: [
+        '@TextView <2 LinearLayout <6 FrameLayout <2 FrameLayout < RelativeLayout < FrameLayout < FrameLayout < LinearLayout < [id="android:id/content"]',
+      ],
+      fastQuery: true,
+      activityIds: [
+        'com.qq.e.ads.PortraitADActivity',
+      ],
+    },
+    {
+      matches: [
+        '@TextView < FrameLayout <2 LinearLayout < FrameLayout < FrameLayout < RelativeLayout < FrameLayout < FrameLayout < LinearLayout < [id="android:id/content"]',
+      ],
+      fastQuery: true,
+      activityIds: [
+        'com.qq.e.ads.PortraitADActivity',
+      ],
+    },
+    {
+      matches: [
+        '@TextView < [vid="btnSaveSetting"]',
+      ],
+      fastQuery: true,
+      activityIds: [
+        'com.funny.audio.view.player.TrackPlayerActivity',
+      ],
+    },
+  ],
+}
